@@ -15,8 +15,8 @@
         var note2 = Number(prompt("Student's second grade"))
         var note3 = Number(prompt("Student's third grade"))
         var note4 = Number(prompt("Student's fourth grade"))
-        average = (note1 + note2 + note3 + note4) / 4
-        document.write(`The student's average was ${average.toFixed(1)}.`)
+        average = ((note1 + note2 + note3 + note4) / 4).toFixed(1)
+        document.write(`The student's average was ${average.replace('.', ',')}.`)
     </script>
 </body>
 </html>
